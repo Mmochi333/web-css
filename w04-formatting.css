@@ -1,0 +1,70 @@
+*{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+         body {
+            font-family: Arial, sans-serif;
+            background-color: #ebf8ff;
+            
+            line-height: 1.6;
+        }
+        header,
+        footer,
+        .hero,
+        .card,
+        .tip-box {
+            border: 1px solid orange;
+            background-color: white;
+            margin: 20px;
+            padding: 20px;
+        }
+
+        header {
+          background-color: rgb(53, 180, 226);
+          padding: 20px;
+          color: antiquewhite;
+          box-shadow: 0 4px 8px black;
+
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+
+        .brand {
+          display: flex;
+          align-items: center;
+          gap: 15px;
+        }
+
+        .brand-icom{ font-size: 50px;}
+        .brand-text p {font-size: 14px;}
+
+
+
+
+        nav a{
+          color: #ffffff;
+          text-decoration: none;
+          margin-left: 20px;
+        }
+        nav a:hover{
+          text-decoration: underline;
+        }
+
+
+
+        .container{
+            max-width: 1200px;
+            width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+
+            background-color: rgb(99, 137, 241);
+        }
+
+        .card-grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            background-color: rgb(98, 194, 238);
+        }
